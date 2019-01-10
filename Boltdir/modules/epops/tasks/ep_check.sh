@@ -15,7 +15,9 @@ then
     fi  
   else
     echo "EPOps agent is running"
+    exit 0
   fi
 else
   echo "EPOps install directory NOT found"
+  exit 1
 fi
