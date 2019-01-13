@@ -8,8 +8,8 @@ echo "Create install directory and download agent software"
 cd /opt/
 mkdir $PT_installdir
 cd $PT_installdir/
-wget -c https://10.0.0.140:5001/software_repo/epops-linux-7.0.tar.gz --no-check-certificate --user xxxxxx --password xxxxxx
+# DONT FORGET TO CHANGE IP ADDRESS, PORT, USERNAME AND PASSWORD!!!
+wget -c https://<IP ADDRESS>:<PORT>/software_repo/epops-linux-7.0.tar.gz --no-check-certificate --user <USERNAME> --password <PASSWORD>
 #
 echo "Unpack agent software"
 tar zxfp epops-linux-7.0.tar.gz
-
