@@ -10,6 +10,7 @@ then
       echo "EPOps agent is NOT running"
       echo "Trying to start agent..."
       service epops-agent start
+      service epops-agent status
     else
       echo "EPOps agent is running"
       service epops-agent status
