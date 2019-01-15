@@ -1,0 +1,11 @@
+{
+  "puppet_task_version": 1,
+  "supports_noop": false,
+  "description": "Starts the EPOps 7.0 agent",
+  "parameters": {
+   "installdir": {
+     "description": "Install directory of the EPOps 7.0 agent software",
+     "type": "String"
+     }
+  }
+}

@@ -1,0 +1,5 @@
+---
+nodes: [node1, node2, node3]
+config:
+  ssh:
+    host-key-check: false

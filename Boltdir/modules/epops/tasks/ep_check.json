@@ -1,0 +1,7 @@
+{
+  "puppet_task_version": 1,
+  "supports_noop": false,
+  "description": "Checks if EPOps 7.0 is installed and if the agent is running",
+  "parameters": {
+  }
+}
