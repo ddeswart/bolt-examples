@@ -11,6 +11,7 @@ then
       echo "Trying to start agent..."
       service epops-agent start
       service epops-agent status
+      exit 0
     else
       echo "EPOps agent is running"
       service epops-agent status
