@@ -1,6 +1,5 @@
 plan profiles::nginx_install(
      TargetSpec $nodes,
-     String $site_content = 'hello!',
    ) {
 
      # Install the puppet-agent package if Puppet is not detected.
