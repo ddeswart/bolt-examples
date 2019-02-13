@@ -25,13 +25,13 @@ plan profiles::nginx_install(
        }
 
        # deploy website
-       file { '/root/Boltdir/site/profiles/files/sample_website':
+       file { '/Boltdir/site/profiles/files/sample_website':
        ensure  => directory,
        owner   => 'root',
        group   => 'root',
        mode    => '0755',
        path    => $html_dir,
-       source  => "file:/root/Boltdir/site/profiles/files/sample_website",
+       source  => "file:/Boltdir/site/profiles/files/sample_website",
        recurse => true,
        }
 
