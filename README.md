@@ -3,7 +3,8 @@ Puppet Bolt sample Tasks and Plans.
 
 
 How to use:
-Create a Boltdir folder in your project directory and clone these examples using Git in the Boltfir folder. Bolt commands are run from you project directory.
+
+Create a Boltdir folder in your project directory and clone these examples using Git in the Boltdir folder. Bolt commands are run from you project directory.
 
 
 Contains modules:
