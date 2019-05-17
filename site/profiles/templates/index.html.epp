@@ -17,16 +17,9 @@
             <% } elsif $kernel == 'Darwin' { -%>
               <img src="img/apple.png" height="128" width="128" />
             <% } -%>
-            <h1>System Info </h1>
-            <p>fqdn/certname:
-                <%= $trusted[certname] %>
-            </p>
-            <p>ip address:
-                <%= $networking[ip] %>
-            </p>
-            <p>total system memory:
-                <%= $memory[system][total] %>
-            </p>
+            <h1>Welcome</h1>
+            <p>This sample website is installed and configured by Puppet Bolt!</p>
+            <p>Bolt is an open source task runner that automates the manual work that you do to maintain your infrastructure.</p>
         </div>
     </div>
 </body>
