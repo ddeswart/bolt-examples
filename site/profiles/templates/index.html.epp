@@ -19,8 +19,6 @@
             <% } -%>
             <h1>Welcome</h1>
             <p>This sample website is installed and configured by Puppet Bolt!</p>
-            <h1>System Info</h1>
-            <p>$facts[‘ipaddress’]</p>
         </div>
     </div>
 </body>
