@@ -3,7 +3,7 @@ body {
   margin-left: 60px;
   width: 70%;
   font-family: 'Helvetica', 'Arial', 'Sans-Serif';
-  background:black url(../img/boltlogo.png) no-repeat left top;
+  background:black url(../img/bolt.png) no-repeat left top;
 }
 
 a { text-decoration: none; color: #999; }
@@ -11,7 +11,7 @@ a:hover { text-decoration: underline; }
 
 p, ul { font-size: 1.5em; line-height: 0.5em; color: #fff; }
 
-h1, h2, h3, h4 { color: #00ffa4 }
+h1, h2, h3, h4 { color: #66ffb2 }
 h1 { font-size: 2em; }
 h2 { font-size: 1.7em; }
 h3 { font-size: 1.5em; }
