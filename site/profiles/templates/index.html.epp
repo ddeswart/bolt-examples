@@ -10,7 +10,7 @@
 <body>
     <div class="container">
         <div class="blurb">
-          <h1>Welcome to NGINX installed on <%= $os[family] %> ( <%= $os[distro][id] %> release) with Puppet Bolt!</h1>
+          <h1>Welcome to NGINX installed on <%= $os[family] %> with Puppet Bolt!</h1>
           <p>If you see this page, the nginx web server is successfully deployed from VMware Cloud Automation Services.</p>
         </div>
     </div>
